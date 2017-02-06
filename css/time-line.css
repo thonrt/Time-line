@@ -1,0 +1,28 @@
+*{margin:0;padding:0;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+.time-line-container{
+	width:960px;
+	margin:60px auto 0 auto;
+	background: url("../imgs/line04.gif") repeat-y 170px 0;
+	overflow: hidden;
+	position: relative;
+}
+.time-line-content h2{
+	height: 80px;
+	background: url("../imgs/icon06.gif") no-repeat 140px 0;
+}
+.time-line-content h2 span{
+	display: inline-block;
+	margin: 20px 50px;
+}
+.time-line-content ul li{
+	list-style-type: none;
+	padding-left: 200px;
+	line-height: 40px;
+}
+.time-line-content ul li span:before{
+	content: url("../imgs/icon07.gif");
+	margin-left: -37px;
+	margin-right: 30px;
+}
